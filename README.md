@@ -12,6 +12,7 @@ It's the fork of GabNetStats application by GabNetStats (https://github.com/gabs
 
 ## Notes
 * .Net Framework 4.8 required
+* It's portable application. Unzip it to any folder and run "Network Activity Indicator.exe"
 * Use one of "color" icon sets for "Only send/receive detection (blue icon)" visual effects
 * Use any icon set for "bandwidth" visual effects
 
