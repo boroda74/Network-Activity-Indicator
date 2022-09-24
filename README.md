@@ -2,7 +2,7 @@
 Network Activity Indicator is a handy swiss-knife tool for network administration and statistics.
 Featuring an old-school but very missed blinking network status icon in the system tray, network traffic graph, and advanced network statistics.
 
-It's the fork of GabNetStats application by GabNetStats (https://github.com/gabsoftware)
+It's the fork of GabNetStats application by GabSoftware (https://github.com/gabsoftware)
 
 ## Features
 * Adds an icon in the statusbar that reflects network traffic
