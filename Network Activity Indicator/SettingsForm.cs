@@ -265,11 +265,11 @@ namespace NetworkActivityIndicator
                         String strPath = Application.ExecutablePath;
                         strPath = "\"" + strPath + "\"";
 
-                        hStartKey.SetValue("GabNetStats", strPath);
+                        hStartKey.SetValue("Network Activity Indicator", strPath);
                     }
                     else
                     {
-                        hStartKey.DeleteValue("GabNetStats");
+                        hStartKey.DeleteValue("Network Activity Indicator");
                     }
                 }
                 catch
