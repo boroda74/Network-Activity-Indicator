@@ -44,7 +44,7 @@ namespace NetworkActivityIndicator
 
         private void AboutForm_Load(object sender, EventArgs e)
         {
-            label1.Text = "Network Activity Indicator v" + Application.ProductVersion;
+            label1.Text = "Network Activity Indicator (" + Application.ProductVersion + ")";
         }
     }
 }

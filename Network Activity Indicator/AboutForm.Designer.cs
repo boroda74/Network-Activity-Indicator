@@ -36,6 +36,8 @@ namespace NetworkActivityIndicator
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -81,12 +83,25 @@ namespace NetworkActivityIndicator
             this.linkLabel2.TabStop = true;
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OnClick);
             // 
+            // linkLabel3
+            // 
+            resources.ApplyResources(this.linkLabel3, "linkLabel3");
+            this.linkLabel3.Name = "linkLabel3";
+            this.linkLabel3.TabStop = true;
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
             // AboutForm
             // 
             this.AcceptButton = this.buttonOK;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.buttonOK;
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.linkLabel3);
             this.Controls.Add(this.buttonOK);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -116,5 +131,7 @@ namespace NetworkActivityIndicator
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.LinkLabel linkLabel3;
+        private System.Windows.Forms.Label label4;
     }
 }
