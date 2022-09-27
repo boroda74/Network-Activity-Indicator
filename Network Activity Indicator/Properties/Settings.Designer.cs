@@ -85,7 +85,7 @@ namespace NetworkActivityIndicator.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("100")]
+        [global::System.Configuration.DefaultSettingValueAttribute("20")]
         public long BandwidthUpload {
             get {
                 return ((long)(this["BandwidthUpload"]));
@@ -145,7 +145,7 @@ namespace NetworkActivityIndicator.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("8")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
         public int BandwidthUnit {
             get {
                 return ((int)(this["BandwidthUnit"]));
@@ -157,7 +157,7 @@ namespace NetworkActivityIndicator.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1048576")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1024")]
         public long BandwidthDownloadMultiplier {
             get {
                 return ((long)(this["BandwidthDownloadMultiplier"]));
@@ -169,7 +169,7 @@ namespace NetworkActivityIndicator.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1048576")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1024")]
         public long BandwidthUploadMultiplier {
             get {
                 return ((long)(this["BandwidthUploadMultiplier"]));

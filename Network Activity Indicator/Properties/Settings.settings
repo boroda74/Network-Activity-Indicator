@@ -18,7 +18,7 @@
       <Value Profile="(Default)">100</Value>
     </Setting>
     <Setting Name="BandwidthUpload" Type="System.Int64" Scope="User">
-      <Value Profile="(Default)">100</Value>
+      <Value Profile="(Default)">20</Value>
     </Setting>
     <Setting Name="AutoCloseBalloon" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
@@ -33,13 +33,13 @@
       <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="BandwidthUnit" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">8</Value>
+      <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="BandwidthDownloadMultiplier" Type="System.Int64" Scope="User">
-      <Value Profile="(Default)">1048576</Value>
+      <Value Profile="(Default)">1024</Value>
     </Setting>
     <Setting Name="BandwidthUploadMultiplier" Type="System.Int64" Scope="User">
-      <Value Profile="(Default)">1048576</Value>
+      <Value Profile="(Default)">1024</Value>
     </Setting>
     <Setting Name="EnabledInterfaceMACList" Type="System.String" Scope="User">
       <Value Profile="(Default)">TOSET</Value>
