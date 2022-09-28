@@ -1,4 +1,4 @@
-*NETWORK ACTIVITY INDICATOR
+NETWORK ACTIVITY INDICATOR
 
 Network Activity Indicator is a handy swiss-knife tool for network administration and statistics.
 Featuring an old-school but very missed blinking network status icon in the system tray, network traffic graph, and advanced network statistics.
