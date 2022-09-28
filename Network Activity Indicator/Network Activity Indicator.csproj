@@ -342,6 +342,12 @@
     <Content Include="icons\gnome-color\send_yellow.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="README.en.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="README.ru.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <EmbeddedResource Include="icons\Network Activity Indicator.ico" />
     <Content Include="icons\win10-color\active_blue_blue.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -774,6 +780,7 @@ del "$(TargetDir)tmp*.txt"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
     <PreBuildEvent>del /F "$(TargetDir)License.*.txt"
+del /F "$(TargetDir)README.*.txt"
 rmdir /S /Q "$(TargetDir)icons"</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
