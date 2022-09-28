@@ -32,3 +32,6 @@ GabTracker : https://github.com/gabsoftware/GabTracker
 - GabSoftware for original application GabNetStats: https://github.com/gabsoftware/GabNetStats
 - Igor Tolmachev (www.itsamples.com) for the original idea
 - Valerij Romanovskij (alias ext5 on GitHub) for the Russian translation
+
+## Latest compiled version
+https://github.com/boroda74/Network-Activity-Indicator/raw/master/network-activity-indicator.zip
