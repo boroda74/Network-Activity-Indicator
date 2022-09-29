@@ -779,8 +779,7 @@ del "$(TargetDir)tmp*.txt"
 del "$(TargetDir)tmp*.txt"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PreBuildEvent>del /F "$(TargetDir)License.*.txt"
-del /F "$(TargetDir)README.*.txt"
+    <PreBuildEvent>del /F "$(TargetDir)*.txt"
 rmdir /S /Q "$(TargetDir)icons"</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
